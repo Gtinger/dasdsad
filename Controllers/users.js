@@ -1,5 +1,5 @@
 import { v4 as uuidv4} from 'uuid';
-import { Karsten, lonse } from "../hardcode.js";
+import { Karsten, lonse } from "../Model/hardcode.js";
 let users = [];
 
 export const createUsers = (req,res) => {
@@ -46,5 +46,3 @@ export const patchUsers = (req,res) => {
 
     res.send(`User with the id ${id} has been updated`);
 };
-
-const e= "E";
